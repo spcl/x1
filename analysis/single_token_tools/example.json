@@ -1,0 +1,346 @@
+{
+    "prompt": "How many \"s\"'s are in strassburg?",
+    "generated_text": " (idea)\nSee all of How many \"s\"'s are in strassburg?, no",
+    "tokens_info": [
+        {
+            "text": " (",
+            "logit": 12.8828125,
+            "probability": 0.07427436858415604,
+            "top_k": [
+                {
+                    "text": "?\n",
+                    "logit": 12.6796875,
+                    "probability": 0.060620974749326706
+                },
+                {
+                    "text": " ",
+                    "logit": 12.5703125,
+                    "probability": 0.054340288043022156
+                }
+            ]
+        },
+        {
+            "text": "idea",
+            "logit": 12.421875,
+            "probability": 0.06562700867652893,
+            "top_k": [
+                {
+                    "text": "1",
+                    "logit": 12.265625,
+                    "probability": 0.056133754551410675
+                },
+                {
+                    "text": "The",
+                    "logit": 11.3828125,
+                    "probability": 0.023217929527163506
+                }
+            ]
+        },
+        {
+            "text": ")\n",
+            "logit": 19.84375,
+            "probability": 0.9707984328269958,
+            "top_k": [
+                {
+                    "text": ")",
+                    "logit": 14.8984375,
+                    "probability": 0.006908871699124575
+                },
+                {
+                    "text": " for",
+                    "logit": 14.5234375,
+                    "probability": 0.004748393781483173
+                }
+            ]
+        },
+        {
+            "text": "See",
+            "logit": 22.359375,
+            "probability": 0.9666310548782349,
+            "top_k": [
+                {
+                    "text": "(",
+                    "logit": 18.4375,
+                    "probability": 0.01914309151470661
+                },
+                {
+                    "text": "How",
+                    "logit": 17.03125,
+                    "probability": 0.004691216163337231
+                }
+            ]
+        },
+        {
+            "text": " all",
+            "logit": 22.609375,
+            "probability": 0.9933580756187439,
+            "top_k": [
+                {
+                    "text": " related",
+                    "logit": 16.28125,
+                    "probability": 0.0017735199071466923
+                },
+                {
+                    "text": " idea",
+                    "logit": 15.671875,
+                    "probability": 0.0009642460499890149
+                }
+            ]
+        },
+        {
+            "text": " of",
+            "logit": 25.734375,
+            "probability": 0.9999078512191772,
+            "top_k": [
+                {
+                    "text": " problems",
+                    "logit": 15.1171875,
+                    "probability": 2.4489167117280886e-05
+                },
+                {
+                    "text": " related",
+                    "logit": 15.0703125,
+                    "probability": 2.33677274081856e-05
+                }
+            ]
+        },
+        {
+            "text": " How",
+            "logit": 20.546875,
+            "probability": 0.8015267252922058,
+            "top_k": [
+                {
+                    "text": " \"",
+                    "logit": 18.96875,
+                    "probability": 0.16540439426898956
+                },
+                {
+                    "text": " Stephen",
+                    "logit": 14.3359375,
+                    "probability": 0.0016089484561234713
+                }
+            ]
+        },
+        {
+            "text": " many",
+            "logit": 28.96875,
+            "probability": 0.9998321533203125,
+            "top_k": [
+                {
+                    "text": " Many",
+                    "logit": 19.8125,
+                    "probability": 0.0001055402826750651
+                },
+                {
+                    "text": " to",
+                    "logit": 18.671875,
+                    "probability": 3.3732700103428215e-05
+                }
+            ]
+        },
+        {
+            "text": " \"",
+            "logit": 23.796875,
+            "probability": 0.9926897883415222,
+            "top_k": [
+                {
+                    "text": ",",
+                    "logit": 17.953125,
+                    "probability": 0.002876770216971636
+                },
+                {
+                    "text": " \"'",
+                    "logit": 16.6875,
+                    "probability": 0.0008114302763715386
+                }
+            ]
+        },
+        {
+            "text": "s",
+            "logit": 27.6875,
+            "probability": 0.9998857975006104,
+            "top_k": [
+                {
+                    "text": "S",
+                    "logit": 18.25,
+                    "probability": 7.967025885591283e-05
+                },
+                {
+                    "text": "ss",
+                    "logit": 16.03125,
+                    "probability": 8.663738299219403e-06
+                }
+            ]
+        },
+        {
+            "text": "\"'",
+            "logit": 21.46875,
+            "probability": 0.9521486759185791,
+            "top_k": [
+                {
+                    "text": "\"s",
+                    "logit": 18.40625,
+                    "probability": 0.04453258588910103
+                },
+                {
+                    "text": "\"",
+                    "logit": 14.5234375,
+                    "probability": 0.0009170518023893237
+                }
+            ]
+        },
+        {
+            "text": "s",
+            "logit": 29.203125,
+            "probability": 0.9999957084655762,
+            "top_k": [
+                {
+                    "text": " in",
+                    "logit": 15.96875,
+                    "probability": 1.7880601035358268e-06
+                },
+                {
+                    "text": "S",
+                    "logit": 14.9765625,
+                    "probability": 6.629496738241869e-07
+                }
+            ]
+        },
+        {
+            "text": " are",
+            "logit": 26.296875,
+            "probability": 0.9978836178779602,
+            "top_k": [
+                {
+                    "text": ",",
+                    "logit": 19.515625,
+                    "probability": 0.0011324536753818393
+                },
+                {
+                    "text": ",",
+                    "logit": 18.921875,
+                    "probability": 0.0006254003383219242
+                }
+            ]
+        },
+        {
+            "text": " in",
+            "logit": 30.34375,
+            "probability": 0.9999573230743408,
+            "top_k": [
+                {
+                    "text": ",",
+                    "logit": 19.75,
+                    "probability": 2.5071152776945382e-05
+                },
+                {
+                    "text": " there",
+                    "logit": 19.109375,
+                    "probability": 1.3211569239501841e-05
+                }
+            ]
+        },
+        {
+            "text": " str",
+            "logit": 24.578125,
+            "probability": 0.9578697085380554,
+            "top_k": [
+                {
+                    "text": " Str",
+                    "logit": 21.265625,
+                    "probability": 0.03489040210843086
+                },
+                {
+                    "text": " \"",
+                    "logit": 19.625,
+                    "probability": 0.006763812620192766
+                }
+            ]
+        },
+        {
+            "text": "ass",
+            "logit": 29.328125,
+            "probability": 0.9994292855262756,
+            "top_k": [
+                {
+                    "text": "asbourg",
+                    "logit": 21.5625,
+                    "probability": 0.00042382246465422213
+                },
+                {
+                    "text": "as",
+                    "logit": 20.40625,
+                    "probability": 0.00013336166739463806
+                }
+            ]
+        },
+        {
+            "text": "burg",
+            "logit": 29.421875,
+            "probability": 0.9998019337654114,
+            "top_k": [
+                {
+                    "text": "berg",
+                    "logit": 20.015625,
+                    "probability": 8.219236769946292e-05
+                },
+                {
+                    "text": "bourg",
+                    "logit": 19.578125,
+                    "probability": 5.306738239596598e-05
+                }
+            ]
+        },
+        {
+            "text": "?",
+            "logit": 25.890625,
+            "probability": 0.6344224810600281,
+            "top_k": [
+                {
+                    "text": "?,",
+                    "logit": 25.3125,
+                    "probability": 0.3558787405490875
+                },
+                {
+                    "text": ",",
+                    "logit": 21.078125,
+                    "probability": 0.005156278144568205
+                }
+            ]
+        },
+        {
+            "text": ",",
+            "logit": 24.796875,
+            "probability": 0.9983678460121155,
+            "top_k": [
+                {
+                    "text": " (",
+                    "logit": 17.6875,
+                    "probability": 0.0008160715806297958
+                },
+                {
+                    "text": " on",
+                    "logit": 16.546875,
+                    "probability": 0.00026083216653205454
+                }
+            ]
+        },
+        {
+            "text": " no",
+            "logit": 23.09375,
+            "probability": 0.8476132750511169,
+            "top_k": [
+                {
+                    "text": " No",
+                    "logit": 20.703125,
+                    "probability": 0.07761801034212112
+                },
+                {
+                    "text": " there",
+                    "logit": 20.65625,
+                    "probability": 0.07406362146139145
+                }
+            ]
+        }
+    ]
+}

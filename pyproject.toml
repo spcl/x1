@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "x1"
+version = "0.0.1"
+authors = [
+  { name="Eric Schreiber", email="eric.schreiber@inf.ethz.ch" },
+  { name="Julia Barth", email="jubarth@student.ethz.ch" },
+  { name="Afonso Catarino", email="afonso.claudinocatarino@inf.ethz.ch" },
+  { name="Hannes Eberhard", email="heberhard@ethz.ch" },
+  { name="Maciej Besta", email="maciej.besta@inf.ethz.ch" },
+  { name="Lorenzo Paleari", email="lpaleari@student.ethz.ch" },
+  { name="Ales Kubicek", email="akubicek@student.ethz.ch" },
+  { name="Robert Gerstenberger", email="gerstenberger.robert@gmail.com" },
+]
+description = "Python package for 'x1'"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11.5"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "tqdm",
+  "numpy",
+  "matplotlib",
+  "scipy",
+  "datasets",
+  "peft",
+  "flask==3.0.3",
+  "requests==2.32.3",
+  "torch>=2.0.0",
+  "torchtyping",
+  "tensorboard",
+  "transformers",
+  "tenacity==9.0.0",
+  "accelerate>=0.26.0",
+  "typing==3.7.4.3",
+  "z3-solver>=4.13.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/spcl/x1"
+
+[project.scripts]

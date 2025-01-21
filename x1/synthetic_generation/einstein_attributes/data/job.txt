@@ -1,0 +1,25 @@
+Teacher
+Doctor
+Engineer
+Nurse
+Lawyer
+Chef
+Mechanic
+Pilot
+Police Officer
+Firefighter
+Scientist
+Accountant
+Software Developer
+Electrician
+Plumber
+Architect
+Writer
+Artist
+Pharmacist
+Veterinarian
+Banker
+Dentist
+Psychologist
+Marketing Specialist
+Journalist

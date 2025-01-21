@@ -1,0 +1,25 @@
+Water
+Coffee
+Tea
+Orange Juice
+Soda
+Lemonade
+Smoothie
+Milkshake
+Iced Tea
+Beer
+Wine
+Margarita
+Gin & Tonic
+Whiskey
+Mojito
+Piña Colada
+Champagne
+Matcha
+Apple Cider
+Energy Drink
+Hot Chocolate
+Espresso
+Cappuccino
+Bloody Mary
+Kombucha

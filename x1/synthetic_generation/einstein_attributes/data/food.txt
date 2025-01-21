@@ -1,0 +1,25 @@
+Pizza
+Sushi
+Burger
+Salad
+Pasta
+Sandwich
+Burrito
+Tacos
+Ramen
+Steak
+Pancakes
+Fried Rice
+Curry
+Hot Dog
+Nachos
+Meatballs
+Dumplings
+Falafel
+Quiche
+Samosa
+Kebabs
+Lasagna
+Tortilla
+Fried Chicken
+Ice Cream

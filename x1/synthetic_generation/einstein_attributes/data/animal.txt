@@ -1,0 +1,25 @@
+Dog
+Cat
+Rabbit
+Hamster
+Parrot
+Fish
+Guinea Pig
+Turtle
+Snake
+Lizard
+Horse
+Ferret
+Hedgehog
+Frog
+Gerbil
+Chinchilla
+Goat
+Pig
+Chicken
+Duck
+Pigeon
+Gecko
+Canary
+Mouse
+Sheep
