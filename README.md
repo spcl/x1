@@ -6,6 +6,21 @@
 
 This is the official implementation of [Reasoning Language Models: A Blueprint](https://arxiv.org/abs/2501.11223).
 
+x1 is an extensible and minimalist framework that can serve as ground to design and experiment with Reasoning Language Models (RLMs).
+x1 provides currently one RLM example implementation, which employs a tree reasoning structure in conjunction with MCTS as the reasoning strategy.
+This combination allows for a systematic exploration of reasoning paths while balancing exploration of new possibilities and exploitation of promising solutions judged by a value model.
+
+
+## Pillars of Reasoning Language Models
+
+This class of models has been the result of the development of three lines of works: (1) Reinforcement Learning based models such as
+AlphaZero, (2) LLM and Transformer based models such as GPT-4o, and (3) the continuous growth of compute power and data processing capabilities of
+supercomputers and high performance systems.
+
+<p align="center">
+  <img src="paper/pics/history_low_res.svg" width="90%">
+</p>
+
 
 ## Setup Guide
 
