@@ -11,7 +11,7 @@ x1 provides currently one RLM example implementation, which employs a tree reaso
 This combination allows for a systematic exploration of reasoning paths while balancing exploration of new possibilities and exploitation of promising solutions judged by a value model.
 
 
-## History of Reasoning Language Models
+## Pillars of Reasoning Language Models
 
 This class of models has been the result of the development of three lines of works: (1) Reinforcement Learning based models such as
 AlphaZero, (2) LLM and Transformer based models such as GPT-4o, and (3) the continuous growth of compute power and data processing capabilities of
