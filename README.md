@@ -1,10 +1,10 @@
-# x1
+# x1 - A Reasoning Language Model Blueprint
 
 <p align="center">
   <img src="paper/pics/basic_pipeline.svg" width="80%">
 </p>
 
-This is the official implementation of [Reasoning Language Models: A Blueprint](https://arxiv.org/abs/2501.).
+This is the official implementation of [Reasoning Language Models: A Blueprint](https://arxiv.org/abs/2501.11223).
 
 
 ## Setup Guide
@@ -61,6 +61,6 @@ Using this in your work? Please reference us using the provided citation:
   year = 2025,
   month = Jan,
   eprinttype = {arXiv},
-  eprint = {2501.}
+  eprint = {2501.11223}
 }
 ```
