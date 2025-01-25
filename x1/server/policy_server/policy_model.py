@@ -270,7 +270,7 @@ class PolicyModel(AbstractPolicyModel):
         # Check if eois or eot comes first in the string when looking from the end
         def find_stop_string(text):
             idxes = [text.rfind(stop_string) for stop_string in stop_strings]
-            # Find the postion of the maximum index
+            # Find the position of the maximum index
             idx = max(idxes)
             return text[idx : idx + len(stop_strings[idxes.index(idx)])]
 
