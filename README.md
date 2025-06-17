@@ -72,9 +72,9 @@ Using this in your work? Please reference us using the provided citation:
 ```bibtex
 @misc{besta2025reasoning,
   title = {{Reasoning Language Models: A Blueprint}},
-  author = {Besta, Maciej and Barth, Julia and Schreiber, Eric and Kubicek, Ales and Catarino, Afonso and Gerstenberger, Robert and Nyczyk, Piotr and Iff, Patrick and Li, Yueling and Houliston, Sam and Sternal, Tomasz and Copik, Marcin and Kwa\'{s}niewski, Grzegorz and Müller, Jürgen and Flis, Łukasz and Eberhard, Hannes and Niewiadomski, Hubert and Hoefler, Torsten},
+  author = {Besta, Maciej and Barth, Julia and Schreiber, Eric and Kubicek, Ales and Catarino, Afonso and Gerstenberger, Robert and Nyczyk, Piotr and Iff, Patrick and Li, Yueling and Houliston, Sam and Sternal, Tomasz and Copik, Marcin and Kwa\'{s}niewski, Grzegorz and Müller, Jürgen and Flis, Łukasz and Eberhard, Hannes and Chen, Zixuan and Niewiadomski, Hubert and Hoefler, Torsten},
   year = 2025,
-  month = Jan,
+  month = Jun,
   eprinttype = {arXiv},
   eprint = {2501.11223}
 }
