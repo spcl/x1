@@ -155,30 +155,34 @@ For the output, first provide the reasoning chain till the end in the <simulatio
             "stream": False,
         }
 
-        # Get request
-        response = requests.post(
-            self.api_url + "/chat", headers=headers, json=payload, timeout=20
-        )
+        answers = []
+        
+        for _ in range(num_simulations):
+            # Get request
+            response = requests.post(
+                self.api_url + "/chat", headers=headers, json=payload, timeout=20
+            )
 
-        # Error handling
-        response.raise_for_status()
+            # Error handling
+            response.raise_for_status()
 
-        # extract the answer from the message - a common error of the LLM is returning answers in the boxed syntax
-        message = response.json()
-        message = message["message"]["content"]
+            # extract the answer from the message - a common error of the LLM is returning answers in the boxed syntax
+            message = response.json()
+            message = message["message"]["content"]
 
-        if "<answer>" in message and "</answer>" in message:
-            try:
-                message = message.split("</answer>")[0].split("<answer>")[1]
-            except IndexError:
-                print("IndexError: Problem splitting message. Message: {message}")
-        else:
-            try:
-                match = re.search(r"\\boxed{([^}]*)}", message)
-                if match:
-                    message = match.group(1)  # Return the boxed content
-            except:
-                print(f"Tags <answer> or </answer> not found in the message: {message}")
-                message = None
+            if "<answer>" in message and "</answer>" in message:
+                try:
+                    message = message.split("</answer>")[0].split("<answer>")[1]
+                except IndexError:
+                    print("IndexError: Problem splitting message. Message: {message}")
+            else:
+                try:
+                    match = re.search(r"\\boxed{([^}]*)}", message)
+                    if match:
+                        message = match.group(1)  # Return the boxed content
+                except:
+                    print(f"Tags <answer> or </answer> not found in the message: {message}")
+                    message = None
+            answers.append(message)
 
-        return [message]
+        return answers
