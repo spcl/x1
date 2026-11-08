@@ -190,7 +190,7 @@ class MCTSGenerator(AbstractGenerator):
                 ValueError: Raises an exception.
             """
             try:
-                response = requests.get(api_url)
+                response = requests.get(api_url, timeout=30)
                 response.raise_for_status()
             except requests.exceptions.RequestException as e:
                 raise ValueError(f"Invalid api_url: {e}")
